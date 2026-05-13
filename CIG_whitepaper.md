@@ -57,7 +57,7 @@ $$F(1, G) = -F(0, G)$$
 
 *Proof.* We have $Q(g, 0) = 2\mathbf{1}[g=1]-1$ and
 $Q(g, 1) = 2\mathbf{1}[g=0]-1 = -Q(g,0)$. Therefore
-$$F(1, G) = \sum_k w_k \cdot Q(g_k, 1) = \sum_k w_k \cdot (-Q(g_k, 0)) = -F(0,G). \qedhere$$
+$$F(1, G) = \sum_k w_k \cdot Q(g_k, 1) = \sum_k w_k \cdot (-Q(g_k, 0)) = -F(0,G).$$
 
 ◻
 **Theorem 1** (Bijectivity). *For every gate pattern $G \in \{0,1\}^6$,
